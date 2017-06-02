@@ -10,7 +10,9 @@ gem 'turbolinks',   '5.0.1'
 gem 'jbuilder',     '2.4.1'
 gem 'bootstrap-sass', '3.3.6'
 gem 'carrierwave', '1.0'
-gem "fog-aws"
+gem 'fog-aws', group: :production
+gem 'fog'
+gem "figaro"
 
 group :development, :test do
   gem 'sqlite3', '1.3.12'
